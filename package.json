@@ -377,6 +377,11 @@
   "keywords": [
     "RegularExpression"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnCoSONG/RegExpUtils.git"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "author": "Song Jinyu <songjinyu23@gmail.com>",
   "license": "MIT"
 }
