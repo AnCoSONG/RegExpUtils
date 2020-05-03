@@ -14,7 +14,7 @@ script:
 deploy:
   provider: npm
   email: 1197252996@qq.com
-  api_key: $NPM_TOKEN
+  api_token: $NPM_TOKEN
   on:
     branch: master
-  skip-cleanup: true
+  cleanup: true

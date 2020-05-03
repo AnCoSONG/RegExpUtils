@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/AnCoSONG/RegExpUtils.svg?branch=master)](https://travis-ci.com/AnCoSONG/RegExpUtils)
 
-## 当前进度 ONBEGINNING
+## 当前进度 IN BEGINNING
 
 - [x] 手机号
 - [x] 邮箱
