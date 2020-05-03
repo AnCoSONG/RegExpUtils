@@ -7,9 +7,11 @@
 - [x] 弱密码
 - [x] 强密码
 
-## 记录
+## 学习笔记
+
+* 使用url源进行一次安装
 
 ```shell
 yarn add something --registry url 
 
-可以使用url源进行一次安装
+* url 
