@@ -6,10 +6,10 @@
     "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
   },
-  "name": "regexputils",
+  "name": "@anco/regexputils",
   "description": "Regular Expression Matchers that Common Used.",
-  "version": "1.0.0",
-  "main": "./dist/index.js",
+  "version": "1.0.2",
+  "main": "./src/index.ts",
   "dependencies": {
     "abab": "^2.0.3",
     "acorn": "^7.1.1",
@@ -379,9 +379,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnCoSONG/RegExpUtils.git"
+    "url": "https://github.com/AnCoSONG/RegExpUtils.git",
+    "directory": "src"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "bugs": {
+    "url": "https://github.com/AnCoSONG/RegExpUtils/issues"
+  },
+  "homepage": "https://github.com/AnCoSONG/RegExpUtils",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Song Jinyu <songjinyu23@gmail.com>",
   "license": "MIT"
 }
