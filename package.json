@@ -8,7 +8,7 @@
   },
   "name": "@anco/regexputils",
   "description": "Regular Expression Matchers that Common Used.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./src/index.ts",
   "dependencies": {
     "abab": "^2.0.3",
