@@ -1,5 +1,9 @@
 language: node_js
 os: osx
+branches:
+  only:
+  - master
+  - /^deploy-.*$/
 node_js:
   - 10
 install:
