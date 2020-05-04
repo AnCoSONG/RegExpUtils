@@ -3,3 +3,8 @@
 export function gmailTest(str: string){
     return /^\w+@gmail.com$/i.test(str);
 }
+
+/** 匹配qq邮箱 */
+export function qqEmailTest(str:string){
+    return /^\w+@qq.com$/i.test(str);
+}

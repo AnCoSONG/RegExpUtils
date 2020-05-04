@@ -7,9 +7,9 @@ branches:
 node_js:
   - 10
 install:
-  - npm install
+  - yarn
 script:
-  - npm test
+  - yarn test
 
 deploy:
   provider: npm
