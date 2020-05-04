@@ -8,7 +8,12 @@ export function strongPasswordTest(str: string) {
     return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{8,16}$/.test(str);
 }
 
-/** 匹配最复杂密码 支持+-*\/符号  8位-16位 */
-export function hellPasswordTest(str: string) {
+/** 匹配复杂密码即数字+大小写字符+符号 支持+-*\/符号  8位-16位 */
+export function complexPasswordTest(str: string) {
     return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\+\-\*\/]).{8,16}$/.test(str);
+}
+
+/** 匹配复杂密码即数字+大小写字符+符号 支持+-*\/?\@\!\#\$\%\^\&\*\(\)\_\'\"\'等, 8-16位 */
+export function mostComplexPasswordTest(str:string){
+    return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\+\-\*\/\!\@\#\$\%\^\&\*\.\(\)\?\>\<\:\;\"\'\_]).{8,16}$/.test(str);
 }

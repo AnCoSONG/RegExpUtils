@@ -16,3 +16,5 @@ jest.config.js
 learnByDoing.md
 yarn.lock
 .gitignore
+test
+dist
