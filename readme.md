@@ -2,12 +2,13 @@
 
 [![Build Status](https://travis-ci.com/AnCoSONG/RegExpUtils.svg?branch=master)](https://travis-ci.com/AnCoSONG/RegExpUtils)
 
-## 当前进度 ONBEGINNING
+## 当前状态 State
 
-- [x] 手机号
-- [x] 邮箱
-- [x] 弱密码
-- [x] 强密码
+WIP
+
+## 下一步计划 Plan
+
+* 完善正则(5/1000)
 
 ## 学习笔记
 
