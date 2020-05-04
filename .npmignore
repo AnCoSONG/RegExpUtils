@@ -17,4 +17,4 @@ learnByDoing.md
 yarn.lock
 .gitignore
 test
-dist
+src

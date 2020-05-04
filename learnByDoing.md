@@ -22,3 +22,8 @@ deploy:
     branch: master
   cleanup: true
 ```
+
+* 自动生成声明文件
+```json
+ "declaration": true, 
+```
