@@ -4,17 +4,8 @@
 
 ## 当前状态 State
 
-WIP
+WIP(Not Recommended)
 
 ## 下一步计划 Plan
 
 * 完善正则(5/1000)
-
-## 学习笔记
-
-* 使用url源进行一次安装
-
-```shell
-yarn add something --registry url 
-
-* url 
