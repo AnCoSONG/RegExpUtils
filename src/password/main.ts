@@ -13,7 +13,21 @@ export function complexPasswordTest(str: string) {
     return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\+\-\*\/]).{8,16}$/.test(str);
 }
 
-/** 匹配复杂密码即数字+大小写字符+符号 支持+-*\/?\@\!\#\$\%\^\&\*\(\)\_\'\"\'等, 8-16位 */
+/** 匹配复杂密码即数字+大小写字符+符号 支持+-*\/?\@\!\#\$\%\^\&\*\(\)\_\' \"等, 8-16位 */
 export function mostComplexPasswordTest(str:string){
     return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\+\-\*\/\!\@\#\$\%\^\&\*\.\(\)\?\>\<\:\;\"\'\_]).{8,16}$/.test(str);
+}
+
+/** 自定义密码检测
+ * description {
+ *      min: 8,
+ *      max: 16,
+ *      number: true,
+ *      lowerChar: true,
+ *      upperChar: true,
+ *      symbols:['*','-',...]
+ * }
+ */
+export function customPasswordTest(description:Object, str:string){
+
 }
